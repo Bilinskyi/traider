@@ -1,0 +1,23 @@
+::-webkit-input-placeholder {font-family: 'Roboto', sans-serif; font-weight: 400;color: #000;font-size: 18px;}
+::-moz-placeholder {font-family: 'Roboto', sans-serif; font-weight: 400;color: #000;font-size: 18px;}/* Firefox 19+ */
+:-moz-placeholder {font-family: 'Roboto', sans-serif; font-weight: 400;color: #000;font-size: 18px;}/* Firefox 18- */
+:-ms-input-placeholder {font-family: 'Roboto', sans-serif; font-weight: 400;color: #000;font-size: 18px;}
+
+* {box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+.inline-center{text-align: center;}
+.left-t{text-align: left;}
+.right-t{text-align: right;}
+.right{float: right!important;}
+.left{float: left!important;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.wrapper:before, .wrapper:after{content: ''; display: table;}
+.wrapper:after {clear: both;}
+.flow-hidden {overflow: hidden}
+body {
+  position: relative; 
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  min-width: 1010px;
+}
