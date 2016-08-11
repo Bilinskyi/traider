@@ -39,18 +39,18 @@ $(document).ready(function(){
  
  // });
 
-// $('header a[href^="#"]').on('click', function(event) {
+$('a.scr[href^="#"]').on('click', function(event) {
 
-//     var target = $( $(this).attr('href') );
+    var target = $( $(this).attr('href') );
 
-//     if( target.length ) {
-//         event.preventDefault();
-//         $('html, body').animate({
-//             scrollTop: target.offset().top -85
-//         }, 600);
-//     }
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top 
+        }, 600);
+    }
 
-// });
+});
 
 //  jQuery(function($){ 
 //    $(".phone_mask_1").mask("+7(999) 999-9999");
