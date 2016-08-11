@@ -379,6 +379,8 @@ b {
   text-align: center;
 }
 .price-pattern {
+  text-decoration: none;
+  display: block;
   color: white;
   font-size: 30px;
   margin-top: 16px;
@@ -406,6 +408,12 @@ b {
   line-height: 78px;
   text-align: center;
   border-radius: 50px;
+  &:hover {
+    background: #72a230;
+  }
+  &:active {
+    -webkit-transform: translateY(1px);-ms-transform: translateY(1px);transform: translateY(1px);
+  }
 }
 
 .section-6 {
